@@ -22,7 +22,7 @@ jobs:
       uses: actions/checkout@v1
 
     - name: Bump version and push tag
-      uses: anothrNick/github-tag-action@1.11
+      uses: anothrNick/github-tag-action@1.11.0
       env:
         WITH_V: true
         RELEASE_BRANCHES: action-test,master
