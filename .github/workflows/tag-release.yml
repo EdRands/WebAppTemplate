@@ -1,4 +1,4 @@
-name: Update Version
+name: Tag New Release
 
 on:
   push:
@@ -8,9 +8,13 @@ on:
 
 jobs:
 
-  tag:
-    name: Tag new release 
+  release:
+    name: Release a new version
+
     runs-on: ubuntu-latest
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
 
@@ -18,8 +22,7 @@ jobs:
       uses: actions/checkout@v1
 
     - name: Bump version and push tag
-      uses: anothrNick/github-tag-action@1.11.0
+      uses: anothrNick/github-tag-action@1.11
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         WITH_V: true
-        RELEASE_BRANCHES: action-test,release/*,hotfix/*,master
+        RELEASE_BRANCHES: action-test,master
