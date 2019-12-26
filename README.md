@@ -1,12 +1,8 @@
-# Ed's Repository Template
+# Ed's Web App Template
 
-This is a starter template for my repositories.
+This is a starter template for my web-based apps.
 
 [![release-badge]][release] [![license-badge]][license]
-
-## Usage
-
-Refer to [GitHub's instructions on creating a repository from a template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 
 ## Changes
 
@@ -26,6 +22,6 @@ Refer to [Make a README](https://www.makeareadme.com/) and/or [The Documentation
 
 [license]: ./LICENSE (License)
 [changelog]: ./CHANGELOG.md (Changelog)
-[license-badge]: https://img.shields.io/github/license/EdRands/RepoTemplate?style=flat-square (License badge)
-[release]: https://github.com/EdRands/RepoTemplate/releases (Releases)
-[release-badge]: https://img.shields.io/github/v/release/EdRands/RepoTemplate?style=flat-square (Latest release badge)
+[license-badge]: https://img.shields.io/github/license/EdRands/WebAppTemplate?style=flat-square (License badge)
+[release]: https://github.com/EdRands/WebAppTemplate/releases (Releases)
+[release-badge]: https://img.shields.io/github/v/release/EdRands/WebAppTemplate?style=flat-square (Latest release badge)
