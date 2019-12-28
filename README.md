@@ -19,20 +19,57 @@ The following commands are available from the project folder.
 ### Live Development Server
 
 ```shell
-yarn serve
+yarn serve:live
 ```
 
-Then go to http://localhost:1234/ to interact with the app.
+Starts the development server, which will automatically rebuild your app as you change files and supports hot module replacement for fast development.
 
-This starts the development server, which will automatically rebuild your app as you change files and supports hot module replacement for fast development.
+Go to http://localhost:2020/ to interact with the app.
 
-### Build for Production
+### Build For Production
 
 ```shell
 yarn build
 ```
 
-This will optimise the app for production and output the result into the /public folder.
+Optimizes the app for production and outputs the result to the /public folder
+
+### Simple Server
+
+```shell
+yarn serve
+```
+
+Starts a basic server using the output of the build command.
+
+Visit http://localhost:2020/ to interact with the app.
+
+## Testing
+
+### Run All tests
+
+```shell
+yarn build
+yarn test
+```
+
+Build the app, start the server and run all the tests.
+
+### Live Testing
+
+```shell
+yarn test:live
+```
+
+Opens the [Cypress Test Runner](https://docs.cypress.io/guides/core-concepts/test-runner.html) in interactive mode.
+
+## Live development
+
+```shell
+yarn develop
+```
+
+Starts the live reload development server and the [Cypress Test Runner](https://docs.cypress.io/guides/core-concepts/test-runner.html). From here you can add and modify tests and app source code without manual refreshes.
 
 ## Changes
 

@@ -137,3 +137,7 @@ $RECYCLE.BIN/
 
 ### Parcel development server folder ###
 /build
+
+### Cypress ###
+tests/cypress/screenshots/
+tests/cypress/videos/
