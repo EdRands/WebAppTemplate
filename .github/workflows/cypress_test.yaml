@@ -3,14 +3,14 @@ name: Run Cypress Tests
 on:
   push:
     paths-ignore:
-      - "/.vscode/**"
-      - "/*.md"
-      - "/LICENSE"
+      - ".vscode/**"
+      - "*.md"
+      - "LICENSE"
   pull_request:
     paths-ignore:
-      - "/.vscode/**"
-      - "/*.md"
-      - "/LICENSE"
+      - ".vscode/**"
+      - "*.md"
+      - "LICENSE"
 
 jobs:
   cypress-run:
