@@ -8,7 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
-## Added
+### Added
 
 - End-to-End Testing power by [Cypress](https://www.cypress.io/).
 
