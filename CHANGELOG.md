@@ -8,6 +8,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## Unreleased
 
+## [0.3.0] - 2019-12-29
+
+### Added
+
+- [Bootstrap](https://getbootstrap.com/) front-end component library.
+
 ## [0.2.0] - 2019-12-29
 
 ### Added
@@ -21,5 +27,6 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Some very basic [HTML](source/index.html), [CSS](source/styles/main.scss) ([Sass](https://sass-lang.com/) actually) and [JavaScript](source/scripts/main.js) entry points.
 - [Parcel](https://parceljs.org/) for blazing fast, zero configuration web application bundling.
 
+[0.3.0]: https://github.com/EdRands/WebAppTemplate/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/EdRands/WebAppTemplate/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/EdRands/WebAppTemplate/releases/tag/v0.1.0
