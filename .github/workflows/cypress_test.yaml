@@ -1,6 +1,16 @@
 name: Run Cypress Tests
 
-on: [push, pull_request]
+on:
+  push:
+    paths-ignore:
+      - "/.vscode/**"
+      - "/*.md"
+      - "/LICENSE"
+  pull_request:
+    paths-ignore:
+      - "/.vscode/**"
+      - "/*.md"
+      - "/LICENSE"
 
 jobs:
   cypress-run:
