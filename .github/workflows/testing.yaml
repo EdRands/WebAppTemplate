@@ -1,4 +1,4 @@
-name: Run Cypress Tests
+name: Testing
 
 on:
   push:
@@ -13,7 +13,8 @@ on:
       - "LICENSE"
 
 jobs:
-  cypress-run:
+  cypress:
+    name: Cypress End-to-End
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
