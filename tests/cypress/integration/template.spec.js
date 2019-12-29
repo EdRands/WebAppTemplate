@@ -10,6 +10,6 @@ describe("The App", function() {
   });
 
   it("displays a welcome heading", function() {
-    cy.get("h1").should("contain", "Hello, World!");
+    cy.get("h1").should("contain", "Hello, world!");
   });
 });
